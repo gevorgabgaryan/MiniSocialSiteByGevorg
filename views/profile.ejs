@@ -1,0 +1,15 @@
+<%- include ./components/header %>
+<div class="container-fluid text-center bg-secondary py-5">
+   <p class="px-5">
+      <a href="/"> <button class="btn btn-primary float-right">Home Page</button></a> 
+     </p> 
+    <div class="row">
+    
+    <div class="col-md-12 pt-5" id="profileInfo">
+        <h1><%= info.username %></h1>
+        <img src="/images/<%= info.image %>" id="profileImg" width="200" height="200">
+            
+      </div>            
+   </div>           
+  </div>       
+  <script src="/javascripts/profile.js"  defer ></script>
